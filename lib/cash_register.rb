@@ -23,7 +23,7 @@ def apply_discount
   "There is no discount to apply."
 else
 
-  @total=@total*(1-@discount/100.0)
+  @total=@total*(1-@discount/100.0).to_nearest_i
   binding.pry
   "After the discount, the total comes to #{@total}."
 end
