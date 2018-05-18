@@ -8,7 +8,8 @@ attr_accessor :total, :discount, :titles
   end
 
 def add_item(title, price, quantity=1)
-
-
+#put title into an titles array 
+#calculate the new total include total items and total price
+end
 
 end
