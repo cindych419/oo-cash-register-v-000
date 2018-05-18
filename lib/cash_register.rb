@@ -9,7 +9,7 @@ attr_accessor :total, :discount, :titles
 
 def add_item(title, price, quantity=1)
   @titles<<title
-  @total=price*quantity+@total
+  @total+=price*quantity
 
 #put title into an titles array
 #calculate the new total include total items and total price
