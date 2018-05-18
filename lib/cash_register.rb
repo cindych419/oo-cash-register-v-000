@@ -26,7 +26,7 @@ else
   @total=add_item(title, price, quantity=1)*@discount
   puts "After the discount, the total comes to #{@total}."
 end
-
+end
 #apply the dicount to our total
 #return message
 #calculate the new total with discount
