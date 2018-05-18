@@ -28,8 +28,8 @@ else
   "After the discount, the total comes to $#{@total.to_i}."
 end
 end
-#apply the dicount to our total
-#return message
-#calculate the new total with discount
+
+def items
+  @title
 
 end
