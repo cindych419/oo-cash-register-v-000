@@ -14,7 +14,7 @@ def add_item(title, price, quantity=1)
   quantity.times do
     @titles<<title
   end
-  @total+=price*quantity 
+  @total+=price*quantity
   #put title into an titles array
 #calculate the new total include total items and total price
 end
