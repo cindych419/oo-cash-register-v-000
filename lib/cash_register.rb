@@ -15,9 +15,9 @@ def add_item(title, price, quantity=1)
 #calculate the new total include total items and total price
 end
 
-def apply_discount(title, price, quantity=1)
+def apply_discount(title, price, quantity=1,discount)
   @total=add_item(title, price, quantity=1)*@discount
-  puts "After the discount, the total comes to #{"@total"}."
+  puts "After the discount, the total comes to #{@total}."
 end
 #apply the dicount to our total
 #return message
