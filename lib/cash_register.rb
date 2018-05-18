@@ -15,9 +15,7 @@ def add_item(title, price, quantity=1)
     @titles<<title
   end
   @last_transaction=price*quantity
-  @total=@total+@last_transaction
-
-
+  @total+=+@last_transaction
   #put title into an titles array
 #calculate the new total include total items and total price
 end
