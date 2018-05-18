@@ -31,5 +31,6 @@ end
 
 def items
   @title
+end
 
 end
