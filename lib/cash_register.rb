@@ -23,8 +23,8 @@ def apply_discount
   "There is no discount to apply."
 else
   binding.pry
-  @total=add_item(title, price, quantity=1)*@discount
-  puts "After the discount, the total comes to #{@total}."
+  @total=@total*(1-@discount/100.0)
+  "After the discount, the total comes to #{@total}."
 end
 end
 #apply the dicount to our total
