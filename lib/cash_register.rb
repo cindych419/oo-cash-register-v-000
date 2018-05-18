@@ -16,6 +16,10 @@ def add_item(title, price, quantity=1)
 end
 
 def apply_discount
+  if @discount==0
+  "There is no discount to apply."
+else 
+  binding.pry
   @total=add_item(title, price, quantity=1)*@discount
   puts "After the discount, the total comes to #{@total}."
 end
