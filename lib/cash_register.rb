@@ -30,7 +30,7 @@ end
 end
 
 def items
-  @title
+  @titles
 end
 
 end
