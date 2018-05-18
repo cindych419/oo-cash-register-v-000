@@ -21,10 +21,11 @@ end
 def apply_discount
   if @discount==0
   "There is no discount to apply."
-else 
+else
   binding.pry
   @total=add_item(title, price, quantity=1)*@discount
   puts "After the discount, the total comes to #{@total}."
+end
 end
 #apply the dicount to our total
 #return message
