@@ -11,6 +11,7 @@ attr_accessor :total, :discount, :titles
   end
 
 def add_item(title, price, quantity=1)
+  if # QUESTION: 
   @titles<<title
   @total+=price*quantity
 
@@ -30,7 +31,7 @@ end
 end
 
 def items
-  @titles
+  if add_item(title, price, quantity=1)
 end
 
 end
