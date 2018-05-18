@@ -2,7 +2,7 @@
 require "pry"
 
 class CashRegister
-attr_accessor :total, :discount, :titles
+attr_accessor :total, :discount, :titles, :last_transaction
 
   def initialize(discount=0)
     @total=0
@@ -16,7 +16,7 @@ def add_item(title, price, quantity=1)
   end
   @total+=price*quantity
 
-  @last_transcation=[]
+  @last_transaction=[]
   #put title into an titles array
 #calculate the new total include total items and total price
 end
